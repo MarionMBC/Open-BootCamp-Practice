@@ -12,6 +12,7 @@ public class Main {
         }  else  {
             System.out.println("El número es positivo");
         }
+
         System.out.println("----------------------------------------------");
         System.out.println("Ciclo While");
         int numeroWhile = 0;
