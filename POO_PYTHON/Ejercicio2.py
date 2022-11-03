@@ -14,7 +14,7 @@ class Alumno:
         return "aprobó" if self.nota>=7 else"reprobó"
 
     def __str__(self):
-        print(f'El alumno: {self.nombre} {self.isApproved()} la clase.')
+        print(f'El alumno: {self.nombre} {self.isApproved()} la clase con una calificación de {self.nota}.')
 
 
 Alumno1 = Alumno("Marion Bustamante", 7)
